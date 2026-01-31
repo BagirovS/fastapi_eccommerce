@@ -1,0 +1,45 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredPackages">
+        <value>
+          <list size="31">
+            <item index="0" class="java.lang.String" itemvalue="cd" />
+            <item index="1" class="java.lang.String" itemvalue="six" />
+            <item index="2" class="java.lang.String" itemvalue="mds_client" />
+            <item index="3" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="4" class="java.lang.String" itemvalue="pyspark" />
+            <item index="5" class="java.lang.String" itemvalue="xlwt" />
+            <item index="6" class="java.lang.String" itemvalue="requests" />
+            <item index="7" class="java.lang.String" itemvalue="uuid" />
+            <item index="8" class="java.lang.String" itemvalue="pyyaml" />
+            <item index="9" class="java.lang.String" itemvalue="pandas" />
+            <item index="10" class="java.lang.String" itemvalue="pypandoc" />
+            <item index="11" class="java.lang.String" itemvalue="atlas_client" />
+            <item index="12" class="java.lang.String" itemvalue="xlrd" />
+            <item index="13" class="java.lang.String" itemvalue="apache-airflow" />
+            <item index="14" class="java.lang.String" itemvalue="openpyxl" />
+            <item index="15" class="java.lang.String" itemvalue="dq-client" />
+            <item index="16" class="java.lang.String" itemvalue="hvac" />
+            <item index="17" class="java.lang.String" itemvalue="partcour" />
+            <item index="18" class="java.lang.String" itemvalue="etl_load_utils" />
+            <item index="19" class="java.lang.String" itemvalue="psycopg2-binary" />
+            <item index="20" class="java.lang.String" itemvalue="horizon-hwm-store" />
+            <item index="21" class="java.lang.String" itemvalue="dh_data_status" />
+            <item index="22" class="java.lang.String" itemvalue="evacuator" />
+            <item index="23" class="java.lang.String" itemvalue="onetl" />
+            <item index="24" class="java.lang.String" itemvalue="dh_vault" />
+            <item index="25" class="java.lang.String" itemvalue="hydra-core" />
+            <item index="26" class="java.lang.String" itemvalue="mtspark" />
+            <item index="27" class="java.lang.String" itemvalue="dh_constants" />
+            <item index="28" class="java.lang.String" itemvalue="data-horizon" />
+            <item index="29" class="java.lang.String" itemvalue="replick-client" />
+            <item index="30" class="java.lang.String" itemvalue="etl-entities" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="ReassignedToPlainText" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>

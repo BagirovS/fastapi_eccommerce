@@ -1,0 +1,43 @@
+uvicorn main:app --reload
+
+uvicorn main:app --port 8000 --reload
+
+
+В этой команде Uvicorn принимает следующие аргументы:
+
+api:app - указывает, где находится приложение:
+api - имя файла без расширения .py,
+app - имя переменной, содержащей экземпляр FastAPI.
+
+--port 8000 - задаёт порт, который будет слушать сервер.
+
+--reload - включает автоматическую перезагрузку при изменении кода (используется только в режиме разработки).
+
+
+
+Коды состояния
+Коды состояния HTTP указывают на результат обработки запроса:
+
+1XX: Запрос получен.
+2XX: Успешное выполнение (например, 201 для создания).
+3XX: Перенаправление.
+4XX: Ошибка клиента (например, 400 для неверных данных).
+5XX: Ошибка сервера.
+
+Полный список кодов доступен на https://www.webfx.com/web-development/glossary/http-status-codes/.
+
+
+alembic
+
+alembic init app/migrations
+
+alembic revision --autogenerate -m "Create categories and products tables"
+
+alembic upgrade head
+
+
+docker compose up -d --build
+
+Token
+https://www.jwt.io/
+расшифрока токена с SECRET_KEY
