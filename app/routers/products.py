@@ -28,15 +28,15 @@ router = APIRouter(
 async def get_all_products(
         page: int = Query(1, ge=1),
         page_size: int = Query(20, ge=1, le=100),
-        category_id: int | None = Query(
+        category_id: Optional[int] = Query(
             None, description="ID категории для фильтрации"),
-        min_price: float | None = Query(
+        min_price: Optional[float] = Query(
             None, ge=0, description="Минимальная цена товара"),
-        max_price: float | None = Query(
+        max_price: Optional[float] = Query(
             None, ge=0, description="Максимальная цена товара"),
-        in_stock: bool | None = Query(
+        in_stock: Optional[bool] = Query(
             None, description="true — только товары в наличии, false — только без остатка"),
-        seller_id: int | None = Query(
+        seller_id: Optional[int] = Query(
             None, description="ID продавца для фильтрации"),
         db: AsyncSession = Depends(get_async_db),
 ):
