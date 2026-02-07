@@ -33,7 +33,7 @@ alembic
 
 alembic init app/migrations
 
-alembic revision --autogenerate -m "Create categories and products tables"
+alembic revision --autogenerate -m "Update Payment section"
 
 alembic upgrade head
 
